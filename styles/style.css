@@ -8,3 +8,144 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+.display-flex {
+    display: flex;
+}
+.text-gray{
+    color: brown;
+}
+.bg-light{
+    background-color:rgba(17, 17, 17, 1.00);
+    width: 100%;
+}
+.teams{
+    width: 100%;
+    background-color: rgba(17, 17, 17, 1.00) ;
+}
+.bannertitle1{
+    color: white;
+    font-size: 48px;
+    margin-left: 480px;
+    margin-top: -10px;
+}
+
+.brand{
+    color: rgba(230, 83, 60, 1.00);
+    margin-left: 9rem;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 4rem;
+}
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner1{
+    color: white;
+    margin-right: 1000px;
+    mask-image: 200px;
+}
+/* header styles */
+.banner-title{
+    color: white;
+    font-size: 4.875rem;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 5rem;
+}
+.banner-description1{
+    color:rgba(255, 255, 255, 0.5);
+    margin-left: 480px;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    background-color: rgb(230, 83, 60);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 5rem;
+    
+}
+    
+    
+.btn-primary1{
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    background-color: black;
+    font-size: 1.125rem;
+    font-weight: 600;
+    
+}
+ .btn-primary2{
+    color: white;
+    border-radius: 100px;
+    background-color:rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+     margin-left: 75rem;  
+    
+ }   
+
+.picture{
+   margin-left: 900px;
+   
+   height: 580px;
+   margin-top: -33rem;  
+}
+.picture2{
+    margin-left: 100px;
+    margin-top: 4rem;
+    
+}
+.pic{
+    margin-left: 380px;
+    margin-top: -11.6rem;
+}  
+.pic1{
+    margin-left: 700px;
+    margin-top: -11.6rem;
+} 
+.pic2{
+    margin-left: 1050px;
+    margin-top: -11.6rem;
+    
+}
+
+
+    /* navbar related styles */
+.navbar{
+display: flex;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
